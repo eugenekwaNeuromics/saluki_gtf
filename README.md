@@ -1,9 +1,11 @@
 # Script for obtaining Saluki half-life predictions from GTFs
 
-This script uses code and resources from the following projects:
+This project uses code and resources from the following projects:
 
-* Basenji (Apache License 2.0): https://github.com/calico/basenji/blob/master/LICENSE 
+* `basenji` (Apache License 2.0): https://github.com/calico/basenji/blob/master/LICENSE 
 * Saluki model weights (Creative Commons Attribution 4.0 International): https://zenodo.org/records/6326409
+
+This project is licensed under the Apache License 2.0, consistent with the licensing of the original `basenji` code.
 
 Please refer to the respective licences for terms of use, and cite the original paper:
 

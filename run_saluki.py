@@ -1,6 +1,20 @@
 ## This script runs the Saluki model to predict transcript half-life from sequence and splicing info
 ## See 261022 for details of how the following code was developed
 
+#    Copyright 2026 eugenekwaNeuromics
+
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+
+#        http://www.apache.org/licenses/LICENSE-2.0
+
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+
 r"""Infer transcript half-life using the Saluki model. 
 
 Requires that the target RNA sequence(s) be encoded into a one-hot (6, 12288) tensor:
