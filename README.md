@@ -52,7 +52,7 @@ To obtain the predictions in `preds_Saluki_mouse.csv.gz`:
 conda run -n tensorflow_env python run_saluki.py \
     -o OUT/ \
     -b basenji/ \
-    -w datasets/ \
+    -w datasets/deeplearning/train_gru/ \
     -i GENOME/Mus_musculus.GRCm38.90.gtf.gz \
     -a GENOME/Mus_musculus.GRCm38.90.gtf.gz \
     -f GENOME/Mus_musculus.GRCm38.dna.primary_assembly.fa \
@@ -65,7 +65,7 @@ where `tensorflow_env` is the user environment that supports `tensorflow`. Note 
 
 * `-o`: Output directory.
 * `-b`: Cloned `basenji` directory.
-* `-w`: Directory containing the weight data. Assumes that the user has directly unzipped the downloaded `datasets.zip` file.
+* `-w`: Directory containing the weight data. Assuming that the user has directly unzipped the downloaded `datasets.zip` file, this is in `train_gru/` as specified above.
 * `-i`: Input GTF file. This will be used to specify exon usage for e.g. novel transcripts.
 * `-a`: Annotated GTF file. This will be used to obtain CDS and alternative transcript names. In the example, `-i` and `-a` are the same file, because the same file holds both information sets.
 * `-f`: Corresponding genomic FASTA file specifying sequences.
