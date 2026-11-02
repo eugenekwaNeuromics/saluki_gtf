@@ -2,8 +2,8 @@
 
 This script uses code and resources from the following projects:
 
-    * Basenji (Apache License 2.0): https://github.com/calico/basenji/blob/master/LICENSE 
-    * Saluki model weights (Creative Commons Attribution 4.0 International): https://zenodo.org/records/6326409
+* Basenji (Apache License 2.0): https://github.com/calico/basenji/blob/master/LICENSE 
+* Saluki model weights (Creative Commons Attribution 4.0 International): https://zenodo.org/records/6326409
 
 Please refer to the respective licences for terms of use, and cite the original paper:
 
